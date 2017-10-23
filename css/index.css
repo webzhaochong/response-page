@@ -1,0 +1,360 @@
+/* 设置body全屏铺满，即背景图 */
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: url("../images/bg-pic.jpg") no-repeat left bottom fixed;
+  background-size: 100% 100%;
+  transform-origin: left top;
+}
+.box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mt22 {
+  margin-top: 22px;
+}
+.td1 {
+  text-indent: 1px;
+}
+/* 设置body内容的区域和样式  */
+.body-wrapper {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.wrap-content {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+/* 设置title图片的样式  */
+.title {
+  left: 40px;
+  top: 40px;
+}
+/* 设置wrap-left部分的样式,上下居中 */
+.wrap-left {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  width: 450px;
+  height: auto;
+  align-items: center;
+  margin-top: 160px;
+}
+.wrap-left-con {
+  width: 450px;
+  height: auto;
+  padding: 20px;
+  background: url("../images/left-area-con.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-bottom: 52px;
+  color: #fff;
+}
+.wrap-left-con:last-child {
+  margin-bottom: 0;
+}
+/* 设置left部分标题的样式  */
+.left-title {
+  text-align: left;
+  font-size: 28px;
+}
+/* 设置行高 */
+.area-description,
+.text-description {
+  line-height: 26px;
+}
+/* 设置数字或特殊词语的颜色 */
+.text-number {
+  color: #ff9d00;
+}
+/* 设置wrap-middle部分的样式*/
+.wrap-middle {
+  flex-grow: 1;
+  position: relative;
+}
+.middle-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* 设置wrap-right部分的样式 */
+.wrap-right {
+  width: 444px;
+  margin-top: 40px;
+}
+.wrap-right-con {
+  width: 100%;
+  padding: 0 20px 0 23px;
+  background: url("../images/right-area-con.png") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-bottom: 25px;
+}
+.wrap-right-con2 {
+  background: url("../images/right-area-con2.png") no-repeat;
+}
+.item {
+  padding: 18px 0;
+}
+.item-icon {
+  margin-right: 30px;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  background: url("../images/icon-contain.png") no-repeat;
+}
+/*  设置item内table的属性 */
+.right-tab {
+  width: 290px;
+  table-layout: fixed;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+.right-number {
+  font-size: 32px;
+}
+.percent {
+  font-size: 22px;
+}
+.up-arrow {
+  width: 16px;
+  height: 23px;
+  background: url("../images/up-arrow.png") no-repeat left center;
+}
+.right-icon-up {
+  padding-left: 10px;
+}
+/* 设置底部的样式  */
+.footer {
+  margin: 0 auto;
+  margin-bottom: 44px;
+  width: 1840px;
+  position: absolute\0;
+  bottom: 0\0;
+  left: 40px\0;
+}
+.footer-item {
+  height: 54px;
+  line-height: 54px;
+  margin-right: 40px;
+  color: #fff;
+  background: url("../images/bottom-contain.png") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.footer-item1 {
+  width: 320px;
+}
+.footer-item2 {
+  width: 276px;
+}
+.footer-item3 {
+  width: 346px;
+}
+.footer-item4 {
+  width: 420px;
+}
+.footer-item5 {
+  width: 312px;
+  margin-right: 0;
+}
+.right-arrow {
+  width: 7px;
+  height: 14px;
+  margin-left: 31px;
+  margin-right: 11px;
+  background: url("../images/r-arrow.png") no-repeat;
+}
+/* 商标页面 */
+.brand {
+  background: url("../images/bg-pic2.jpg") no-repeat left bottom fixed;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.brand-left {
+  width: 1440px;
+  background: url("../images/left-sb.png") no-repeat 50px 170px;
+}
+/* 设置品牌标题的样式 */
+.brand-title {
+  width: 344px;
+  line-height: 75px;
+  height: 75px;
+  font-size: 28px;
+  color: #fff;
+  text-indent: 25px;
+  background: url("../images/brand-title-con.png") no-repeat left center;
+}
+/* 设置山耕概况的样式 */
+.sggk {
+  margin-top: 142px;
+  margin-left: 53px;
+}
+.gk-item {
+  margin-top: 53px;
+  margin-left: 84px;
+}
+.gk-item-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 48px;
+  line-height: 48px;
+  color: #fff;
+  border: 1px solid #4090b8;
+}
+.brand-text-color {
+  font-weight: bold;
+  color: #f5b539;
+}
+/* 主导产业的样式 */
+.zdcy {
+  margin-left: 737px;
+  margin-top: 142px;
+}
+.zdcy-item {
+  width: 588px;
+  height: 235px;
+}
+.zdcy-item-text {
+  width: 94px;
+  height: 94px;
+  line-height: 94px;
+  margin-top: 24px;
+  margin-right: 27px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "宋体";
+  border: 1px solid #9bffff;
+  -webkit-border-radius: 95px;
+  -moz-border-radius: 95px;
+  border-radius: 95px;
+}
+/* 设置山耕经营情况的样式 */
+.jyqk {
+  margin-left: 737px;
+  margin-top: 151px;
+  width: 704px;
+}
+.jyqk-item-con {
+  position: relative;
+  width: 340px;
+  height: 112px;
+  margin-top: 30px;
+}
+.jyqk-item-con:last-child {
+  margin-top: 18px;
+}
+.jyqk-item-con1 {
+  background: url("../images/brand-icon1.png") no-repeat 1px center;
+}
+.jyqk-item-con2 {
+  background: url("../images/brand-icon2.png") no-repeat 1px center;
+}
+.jyqk-item-con3 {
+  background: url("../images/brand-icon3.png") no-repeat 1px center;
+}
+.jyqk-item-text {
+  color: #fff;
+  text-indent: 130px;
+}
+.jyqk-item-color {
+  font-size: 32px;
+  color: #f5b539;
+}
+.brand-p-con {
+  padding-top: 10px;
+}
+/* 设置brand-right的样式 */
+.brand-right {
+  width: 400px;
+  background: rgba(2, 9, 23, 0.6);
+}
+.register-brand {
+  color: #9bffff;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+/* 商标数量样式 */
+.register-brand-num {
+  width: 341px;
+  height: 123px;
+  line-height: 123px;
+  margin-bottom: 17px;
+  text-indent: 23px;
+  color: #9bffff;
+  font-size: 28px;
+  background: url("../images/register-brand.png") no-repeat;
+}
+.register-num-color {
+  color: #fff;
+  font-size: 72px;
+}
+.brand-item {
+  color: #fff;
+}
+/* 不同等级商标的条状图 */
+.brand-img {
+  width: 340px;
+  height: 4px;
+}
+.brand-img1 {
+  background: url("../images/brand-level1.png") no-repeat;
+}
+.brand-img2 {
+  background: url("../images/brand-level2.png") no-repeat;
+}
+.brand-img3 {
+  background: url("../images/brand-level3.png") no-repeat;
+}
+.brand-img4 {
+  background: url("../images/brand-level4.png") no-repeat;
+}
+.brand-img5 {
+  background: url("../images/brand-level5.png") no-repeat;
+}
+/* 当前商标样式 */
+.brand-current {
+  margin: 74px auto 0 auto;
+  width: 255px;
+}
+.current-grade {
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  font-size: 28px;
+  color: #9bffff;
+  background: url("../images/brand-rank.png") no-repeat;
+}
